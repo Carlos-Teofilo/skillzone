@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0
 
-WORKDIR /app
+WORKDIR /App
 
 ENV PATH="$PATH:/root/.dotnet/tools"
 

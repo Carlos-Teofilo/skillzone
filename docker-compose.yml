@@ -7,9 +7,9 @@ services:
     networks:
       - skillzone-network
     volumes:
-      - ./src:/app
-      - skillzone-obj:/app/obj
-      - skillzone-bin:/app/bin
+      - ./src:/App
+      - skillzone-obj:/App/obj
+      - skillzone-bin:/App/bin
     depends_on:
       - db
     environment:

@@ -2,11 +2,11 @@ using System.Globalization;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace Api.Utils;
+namespace App.Domain.Shared.Extensions;
 
-public static class SlugHelper
+public static class StringExtensions
 {
-    public static string Slugify(string input)
+    public static string Slugify(this string input)
     {
         if (string.IsNullOrWhiteSpace(input))
             return string.Empty;
